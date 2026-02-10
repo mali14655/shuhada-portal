@@ -293,7 +293,7 @@ const PictorialGlimpses = () => {
         carouselElement.removeEventListener('wheel', handleWheel);
       };
     }
-  }, [selectedEvent, events.length]);
+  }, [selectedEvent]);
 
   // Main cards view
   if (!selectedEvent) {
